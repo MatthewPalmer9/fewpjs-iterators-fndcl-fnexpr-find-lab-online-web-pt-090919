@@ -6,9 +6,9 @@ function testFunc() {
 
 function superbowlWin(record){
   let year 
-  record.find(function(y){
-    if(y["result"] === "W"){
-      year = y.
+  record.find(function(winYear){
+    if(winYear["result"] === "W"){
+      year = y.year
     }
   })
 }
