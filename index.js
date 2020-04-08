@@ -6,7 +6,7 @@ function testFunc() {
 
 function superbowlWin(record){
   let year 
-  result.find(function(obj){
+  record.find(function(obj){
     if(obj["result"])
   });
 }
