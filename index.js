@@ -11,4 +11,5 @@ function superbowlWin(record){
       year = recordObj.year
     }
   })
+  return year
 }
